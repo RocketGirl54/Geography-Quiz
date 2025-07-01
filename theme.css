@@ -1,0 +1,57 @@
+body {
+    background-image: url('Island.jpeg'); /* Replace with your actual image name */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .answer-button {
+    background-color: rgba(173, 216, 230, 0.7); /* light blue with transparency */
+    color: black;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .answer-button:hover {
+    background-color: rgba(135, 206, 250, 0.85); /* slightly deeper blue on hover */
+  }
+  
+  #submit-btn {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 28px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px; /* You can adjust this value */
+    gap: 10px;
+  }
+  
+  #country-name {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    margin: 0;
+  }
+  
